@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://download.bazzite.gg/bazzite-stable-amd64.iso"
+      VERSION: "https://silver-palm-tree-694j9rqrqx6p3r7vw-8000.app.github.dev/chromeos_16002.51.0_reven_recovery_stable-channel_mp-v6.bin"
     devices:
       - /dev/kvm
       - /dev/net/tun
