@@ -3,10 +3,9 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://download.manjaro.org/kde/25.0.1/manjaro-kde-25.0.1-250508-linux612.iso"
+      VERSION: "https://cdimage.kali.org/kali-2025.1c/kali-linux-2025.1c-installer-amd64.iso"
       DISK_SIZE: "28G"
       RAM_SIZE: "8G"
-      CPU_CORES: "4"
     devices:
       - /dev/kvm
       - /dev/net/tun
